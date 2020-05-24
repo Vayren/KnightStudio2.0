@@ -873,6 +873,7 @@ h2{
 
 .questions{
 	margin-top: 35px;
+	margin-bottom: 15px;
 }
 
 .questions li{
@@ -912,3 +913,56 @@ h2{
 .section-contact{
 	background-color: #f5f5f5; 
 }
+
+.main-form{
+	background-color: #fff;
+	border-radius: 5px;
+	padding: 20px;
+}
+
+.main-form .col{
+	margin-top:0;
+	margin-bottom: 0;
+}
+
+input[type="text"], textarea{
+	width:100%;
+	margin-bottom: 20px;
+	font-size: 0.95rem;
+	border:1px solid #ced4da;
+	color:#778087;
+	padding: 10px;
+	outline: none;
+	font-family: 'Open Sans', sans-serif;
+}
+
+input[type="text"]::placeholder,
+textarea::placeholder{
+	color:#778087;
+}
+
+textarea{
+	height:125px;
+}
+
+.main-form .row:last-child{
+	text-align: center;
+}
+
+.btn-contact{
+	font-size: 0.95rem;
+	font-weight: 500;
+	border:2px solid #7cc576;
+	border-radius: 5px;
+	padding:10px 18px;
+	color:#fff;
+	background-color: #7cc576;
+	font-family: "Montserrat", sans-serif;
+	outline: none;
+	cursor: pointer;
+}
+
+.btn-contact:hover{
+	background-color: #5dcb54;
+}
+
