@@ -14,46 +14,50 @@
 <body>
 	<header>
 		<div class="header-wrapper">
-			<div class="inner-header">
-				<a href="#"><img src="./img/hero-logo.png" alt="Knight Logo"></a>
+			<div class="header-inner">
+				<a href="#" class="header-link-logo"><img src="./img/hero-logo.png" alt="Knight Logo"></a>
 				<h1>Welcome To Knight Studios</h1>
 				<p>We are team of talanted designers making websites with Bootstrap</p>
-				<a href="#" class="btn btn-header btn-full">Get started</a>
+				<a href="#" class="btn btn-full header-button">Get started</a>
 			</div>
 		</div>
-		<nav class="main-nav">
-			<div class="row">
-				<ul>
-					<li><a href="#">home</a></li>
-					<li class="drop-down-menu"><a href="#">about<i class="icofont-rounded-down"></i></a></li>
-					<li><a href="#">services</a></li>
-					<li class="logo-link"><a href="#"><img src="./img/logo.png" alt="Knight logo"></a></li>
-					<li><a href="#">portfolio</a></li>
-					<li><a href="#">pricing</a></li>
-					<li><a href="#">contact</a></li>
-				</ul>
-			</div>
-		</nav>
 	</header>
-	<section class="section-about-us">
+	<nav class="main-nav">
+		<div class="row">
+			<ul>
+				<li><a href="#">home</a></li>
+				<li class="drop-down-item">
+					<a href="#">about<i class="icofont-rounded-down"></i></a>
+				</li>
+				<li><a href="#">services</a></li>
+				<li class="logo-item">
+					<a href="#"><img src="./img/logo.png" alt="Knight logo"></a>
+				</li>
+				<li><a href="#">portfolio</a></li>
+				<li><a href="#">pricing</a></li>
+				<li></li><a href="#">contact</a></li>
+			</ul>
+		</div>
+	</nav>
+	<section class="about-us">
 		<div class="row">
 			<div class="title-block">
 				<h2>about us</h2>
 				<p>Magnam dolores commodi suscipit eius consequatur</p>
 			</div>
 		</div>
-		<div class="row about-block">
+		<div class="row flex-container">
 			<div class="col span-1-of-2">
-				<div class="about-img"></div>
+				<div class="about-us-left"></div>
 			</div>
 			<div class="col span-1-of-2">
-				<div class="about-text-block">
+				<div class="about-us-right">
 					<h3>Voluptatem dignissimos provident quasi corporis</h3>
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 					<ul>
-						<li><i class='bx bx-check-double'></i>Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
-						<li><i class='bx bx-check-double'></i>Duis aute irure dolor in reprehenderit in voluptate velit.</li>
-						<li><i class='bx bx-check-double'></i>Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.</li>
+						<li class="flex-container"><i class='bx bx-check-double'></i>Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
+						<li class="flex-container"><i class='bx bx-check-double'></i>Duis aute irure dolor in reprehenderit in voluptate velit.</li>
+						<li class="flex-container"><i class='bx bx-check-double'></i>Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.</li>
 					</ul>
 					<p>Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
 				</div>
@@ -67,32 +71,32 @@
 				<p>Magnam dolores commodi suscipit eius consequatur ex aliquid fuga eum quidem</p>
 			</div>
 		</div>
-		<div class="row service-block">
+		<div class="row flex-container">
 			<div class="col span-1-of-2">
-				<div class="services-items">
-					<ul>
-						<li>
+				<div class="service-left">
+					<ul class="service-list">
+						<li class="flex-container">
 							<i class="bx bx-receipt"></i>
 							<div class="service-item">
 								<h4>Est labore ad</h4>
 								<p>Consequuntur sunt aut quasi enim aliquam quae harum pariatur laboris nisi ut aliquip</p>
 							</div>
 						</li>
-						<li>
+						<li class="flex-container">
 							<i class="bx bx-cube-alt"></i>
 							<div class="service-item">
 								<h4>Harum esse qui</h4>
 								<p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt</p>
 							</div>
 						</li>
-						<li>
+						<li class="flex-container">
 							<i class="bx bx-images"></i>
 							<div class="service-item">
 								<h4>Aut occaecati</h4>
 								<p>Aut suscipit aut cum nemo deleniti aut omnis. Doloribus ut maiores omnis facere</p>
 							</div>
 						</li>
-						<li>
+						<li class="flex-container">
 							<i class="bx bx-shield"></i>
 							<div class="service-item">
 								<h4>Beatae veritatis</h4>
@@ -103,68 +107,70 @@
 				</div>
 			</div>
 			<div class="col span-1-of-2">
-				<div class="service-imgblock"></div>
+				<div class="service-right"></div>
 			</div>
 		</div>
 	</section>
 	<section class="section-features">
-		<div class="row feature-block">
+		<div class="row flex-container">
 			<div class="col span-1-of-2">
-				<div class="feature-imgblock"></div>
+				<div class="feature-left"></div>
 			</div>
 			<div class="col span-1-of-2">
-				<ul class="features-items">
-					<li>
-						<a href="#" class="feature-item active">
-							<h4>Modi sit est</h4>
-							<p>Quis excepturi porro totam sint earum quo nulla perspiciatis eius.</p>
-						</a>
-					</li>
-					<li>
-						<a href="#" class="feature-item">
-							<h4>Unde praesentium sed</h4>
-							<p>Voluptas vel esse repudiandae quo excepturi.</p>
-						</a>
-					</li>
-					<li>
-						<a href="#" class="feature-item">
-							<h4>Pariatur explicabo vel</h4>
-							<p>Velit veniam ipsa sit nihil blanditiis mollitia natus.</p>
-						</a>
-					</li>
-					<li>
-						<a href="#" class="feature-item">
-							<h4>Beatae veritatis</h4>
-							<p>Ratione hic sapiente nostrum doloremque illum nulla praesentium id</p>
-						</a>
-					</li>
-				</ul>
+				<div class="feature-right">
+					<ul class="features-list">
+						<li class="feature-item">
+							<a href="#" class="feature-link active">
+								<h4>Modi sit est</h4>
+								<p>Quis excepturi porro totam sint earum quo nulla perspiciatis eius.</p>
+							</a>
+						</li>
+						<li class="feature-item">
+							<a href="#" class="feature-link">
+								<h4>Unde praesentium sed</h4>
+								<p>Voluptas vel esse repudiandae quo excepturi.</p>
+							</a>
+						</li>
+						<li class="feature-item">
+							<a href="#" class="feature-link">
+								<h4>Pariatur explicabo vel</h4>
+								<p>Velit veniam ipsa sit nihil blanditiis mollitia natus.</p>
+							</a>
+						</li>
+						<li class="feature-item">
+							<a href="#" class="feature-link">
+								<h4>Beatae veritatis</h4>
+								<p>Ratione hic sapiente nostrum doloremque illum nulla praesentium id</p>
+							</a>
+						</li>
+					</ul>
+				</div>
 			</div>
 		</div>
 	</section>
-	<section class="section-why-us">
+	<section class="section-why-us flex-container">
 		<div class="col span-4-of-7">
-			<div class="wrapper-left">
+			<div class="why-us-left">
 				<h3>Eum ipsam laborum deleniti <strong>velit pariatur architecto aut nihil</strong></h3>
 				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit</p>
 				<ul>
-					<li class="list-item">
-						<a href="#"><span>01</span>Non consectetur a erat nam at lectus urna duis?<i class="icofont-rounded-down down"></i></a>
+					<li class="why-us-item">
+						<a href="#"><span>01</span>Non consectetur a erat nam at lectus urna duis?<i class="icofont-rounded-down"></i></a>
 						<p style="display: block;">Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.</p>
 					</li>
-					<li class="list-item">
-						<a href="#"><span>02</span> Feugiat scelerisque varius morbi enim nunc?<i class="icofont-rounded-down down"></i></a>
+					<li class="why-us-item">
+						<a href="#"><span>02</span> Feugiat scelerisque varius morbi enim nunc?<i class="icofont-rounded-down"></i></a>
 						<p>Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.</p>
 					</li>
-					<li class="list-item">
-						<a href="#"><span>03</span> Dolor sit amet consectetur adipiscing elit?<i class="icofont-rounded-down down"></i></a>
+					<li class="why-us-item">
+						<a href="#"><span>03</span> Dolor sit amet consectetur adipiscing elit?<i class="icofont-rounded-down"></i></a>
 						<p>Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus pulvinar elementum integer enim. Sem nulla pharetra diam sit amet nisl suscipit. Rutrum tellus pellentesque eu tincidunt. Lectus urna duis convallis convallis tellus. Urna molestie at elementum eu facilisis sed odio morbi quis</p>
 					</li>
 				</ul>
 			</div>
 		</div>
 		<div class="col span-3-of-7">
-			<div class="wrapper-right">
+			<div class="why-us-right">
 				<div class="play-btn">
 					<i class='bx bx-play'></i>
 				</div>
@@ -190,12 +196,12 @@
 		</div>
 		<div class="row">
 			<div class="col span-1-of-3">
-				<div class="portfolio-img">
+				<div class="portfolio-wrapper">
 					<img src="./img/portfolio/portfolio-1.jpg" alt="Portfolio photo">
 					<div class="portfolio-info">
 						<div class="portfolio-info-inner">
-							<h4 class="title">App 1</h4>
-							<p class="category">app</p>
+							<h4>App 1</h4>
+							<p>app</p>
 							<div class="portfolio-link-block">
 								<a href="#"><i class='bx bx-plus'></i></a>
 								<a href="#"><i class='bx bx-link' ></i></a>
@@ -205,12 +211,12 @@
 				</div>
 			</div>
 			<div class="col span-1-of-3">
-				<div class="portfolio-img">
+				<div class="portfolio-wrapper">
 					<img src="./img/portfolio/portfolio-2.jpg" alt="Portfolio photo">
 					<div class="portfolio-info">
 						<div class="portfolio-info-inner">
-							<h4 class="title">Web 3</h4>
-							<p class="category">web</p>
+							<h4>Web 3</h4>
+							<p>web</p>
 							<div class="portfolio-link-block">
 								<a href="#"><i class='bx bx-plus'></i></a>
 								<a href="#"><i class='bx bx-link' ></i></a>
@@ -220,12 +226,12 @@
 				</div>
 			</div>
 			<div class="col span-1-of-3">
-				<div class="portfolio-img">
+				<div class="portfolio-wrapper">
 					<img src="./img/portfolio/portfolio-3.jpg" alt="Portfolio photo">
 					<div class="portfolio-info">
 						<div class="portfolio-info-inner">
-							<h4 class="title">App 2</h4>
-							<p class="category">app</p>
+							<h4>App 2</h4>
+							<p>app</p>
 							<div class="portfolio-link-block">
 								<a href="#"><i class='bx bx-plus'></i></a>
 								<a href="#"><i class='bx bx-link' ></i></a>
@@ -237,12 +243,12 @@
 		</div>
 		<div class="row">
 			<div class="col span-1-of-3">
-				<div class="portfolio-img">
+				<div class="portfolio-wrapper">
 					<img src="./img/portfolio/portfolio-4.jpg" alt="Portfolio photo">
 					<div class="portfolio-info">
 						<div class="portfolio-info-inner">
-							<h4 class="title">Card 2</h4>
-							<p class="category">card</p>
+							<h4>Card 2</h4>
+							<p>card</p>
 							<div class="portfolio-link-block">
 								<a href="#"><i class='bx bx-plus'></i></a>
 								<a href="#"><i class='bx bx-link' ></i></a>
@@ -252,12 +258,12 @@
 				</div>
 			</div>
 			<div class="col span-1-of-3">
-				<div class="portfolio-img">
+				<div class="portfolio-wrapper">
 					<img src="./img/portfolio/portfolio-5.jpg" alt="Portfolio photo">
 					<div class="portfolio-info">
 						<div class="portfolio-info-inner">
-							<h4 class="title">Web 2</h4>
-							<p class="category">web</p>
+							<h4>Web 2</h4>
+							<p>web</p>
 							<div class="portfolio-link-block">
 								<a href="#"><i class='bx bx-plus'></i></a>
 								<a href="#"><i class='bx bx-link' ></i></a>
@@ -267,12 +273,12 @@
 				</div>
 			</div>
 			<div class="col span-1-of-3">
-				<div class="portfolio-img">
+				<div class="portfolio-wrapper">
 					<img src="./img/portfolio/portfolio-6.jpg" alt="Portfolio photo">
 					<div class="portfolio-info">
 						<div class="portfolio-info-inner">
-							<h4 class="title">App 3</h4>
-							<p class="category">app</p>
+							<h4>App 3</h4>
+							<p>app</p>
 							<div class="portfolio-link-block">
 								<a href="#"><i class='bx bx-plus'></i></a>
 								<a href="#"><i class='bx bx-link' ></i></a>
@@ -284,12 +290,12 @@
 		</div>
 		<div class="row">
 			<div class="col span-1-of-3">
-				<div class="portfolio-img">
+				<div class="portfolio-wrapper">
 					<img src="./img/portfolio/portfolio-7.jpg" alt="Portfolio photo">
 					<div class="portfolio-info">
 						<div class="portfolio-info-inner">
-							<h4 class="title">Card 1</h4>
-							<p class="category">card</p>
+							<h4>Card 1</h4>
+							<p>card</p>
 							<div class="portfolio-link-block">
 								<a href="#"><i class='bx bx-plus'></i></a>
 								<a href="#"><i class='bx bx-link' ></i></a>
@@ -299,12 +305,12 @@
 				</div>
 			</div>
 			<div class="col span-1-of-3">
-				<div class="portfolio-img">
+				<div class="portfolio-wrapper">
 					<img src="./img/portfolio/portfolio-8.jpg" alt="Portfolio photo">
 					<div class="portfolio-info">
 						<div class="portfolio-info-inner">
-							<h4 class="title">Card 3</h4>
-							<p class="category">card</p>
+							<h4>Card 3</h4>
+							<p>card</p>
 							<div class="portfolio-link-block">
 								<a href="#"><i class='bx bx-plus'></i></a>
 								<a href="#"><i class='bx bx-link' ></i></a>
@@ -314,12 +320,12 @@
 				</div>
 			</div>
 			<div class="col span-1-of-3">
-				<div class="portfolio-img">
+				<div class="portfolio-wrapper">
 					<img src="./img/portfolio/portfolio-9.jpg" alt="Portfolio photo">
 					<div class="portfolio-info">
 						<div class="portfolio-info-inner">
-							<h4 class="title">Web 1</h4>
-							<p class="category">web</p>
+							<h4>Web 1</h4>
+							<p>web</p>
 							<div class="portfolio-link-block">
 								<a href="#"><i class='bx bx-plus'></i></a>
 								<a href="#"><i class='bx bx-link' ></i></a>
@@ -333,7 +339,7 @@
 	<section class="section-testimonials">
 		<div class="testimonials-wrapper">
 			<div class="testimonials-title">
-				<div class="quotes">
+				<div class="testimonials-quotes">
 					<i class='bx bxs-quote-right'></i>
 				</div>
 			</div>
@@ -354,7 +360,7 @@
 	</section>
 	<section class="section-clients">
 		<div class="row">
-			<ul class="clients">
+			<ul class="clients-list">
 				<li><img src="./img/clients/client-1.png" alt="Myob logo"></li>
 				<li><img src="./img/clients/client-2.png" alt="Belimo logo"></li>
 				<li><img src="./img/clients/client-3.png" alt="LifeGroup logo"></li>
@@ -374,7 +380,7 @@
 		<div class="row">
 			<div class="col span-1-of-3">
 				<div class="team-item-wrap">
-					<div class="team-item-photo">
+					<div class="team-item-inner">
 						<img src="./img/team/team-1.jpg" alt="Team photo">
 						<div class="team-shares">
 							<a href="#">
@@ -398,7 +404,7 @@
 			</div>
 			<div class="col span-1-of-3">
 				<div class="team-item-wrap">
-					<div class="team-item-photo">
+					<div class="team-item-inner">
 						<img src="./img/team/team-2.jpg" alt="Team photo">
 						<div class="team-shares">
 							<a href="#">
@@ -422,7 +428,7 @@
 			</div>
 			<div class="col span-1-of-3">
 				<div class="team-item-wrap">
-					<div class="team-item-photo">
+					<div class="team-item-inner">
 						<img src="./img/team/team-3.jpg" alt="Team photo">
 						<div class="team-shares">
 							<a href="#">
@@ -458,31 +464,31 @@
 				<div class="pricing-plan">
 					<h3>Free</h3>
 					<h4><span>0</span> / month</h4>
-					<ul>
+					<ul class="pricing-option-list">
 						<li>Aida dere</li>
 						<li>Nec feugiat nisl</li>
 						<li>Nulla at volutpat dola</li>
-						<li class="lineThrough">Pharetra massa</li>
-						<li class="lineThrough">Massa ultricies mi</li>
+						<li class="line-through">Pharetra massa</li>
+						<li class="line-through">Massa ultricies mi</li>
 					</ul>
-					<a href="#" class="btn btn-pricing btn-ghost">
+					<a href="#" class="pricing-btn ghost">
 						Buy Now
 					</a>
 				</div>
 			</div>
 			<div class="col span-1-of-3">
-				<div class="pricing-plan recomended">
-					<span class="pricing-tooltip">recomended</span >
+				<div class="pricing-plan selected">
+					<span class="pricing-select-message">recomended</span >
 					<h3>Business</h3>
 					<h4><span>19</span> / month</h4>
-					<ul>
+					<ul class="pricing-option-list">
 						<li>Aida dere</li>
 						<li>Nec feugiat nisl</li>
 						<li>Nulla at volutpat dola</li>
 						<li>Pharetra massa</li>
 						<li class="lineThrough">Massa ultricies mi</li>
 					</ul>
-					<a href="#" class="btn btn-pricing btn-full">
+					<a href="#" class="pricing-btn full">
 						Buy Now
 					</a>
 				</div>
@@ -491,14 +497,14 @@
 				<div class="pricing-plan">
 					<h3>Developer</h3>
 					<h4><span>29</span> / month</h4>
-					<ul>
+					<ul class="pricing-option-list">
 						<li>Aida dere</li>
 						<li>Nec feugiat nisl</li>
 						<li>Nulla at volutpat dola</li>
 						<li>Pharetra massa</li>
 						<li>Massa ultricies mi</li>
 					</ul>
-					<a href="#" class="btn btn-pricing btn-ghost">
+					<a href="#" class="pricing-btn ghost">
 						Buy Now
 					</a>
 				</div>
@@ -511,7 +517,7 @@
 				<h2>frequently asked questions</h2>
 			</div>
 			<div class="row">
-				<ul class="questions">
+				<ul class="questions-list">
 					<li>
 						<a href="#">Non consectetur a erat nam at lectus urna duis?<i class="icofont-rounded-down down"></i></a>
 						<p>Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.</p>
@@ -547,36 +553,96 @@
 				<p>Magnam dolores commodi suscipit eius consequatur ex aliquid fuga eum quidem</p>
 			</div>
 		</div>
-		<div class="row">
+		<div class="row flex-container">
 			<div class="col span-1-of-3">
-				<div class="contact-info">
-					
+				<div class="contact-left">
+					<div class="contact-item flex-container">
+						<div class="contact-item-icon">
+							<i class="icofont-google-map"></i>
+						</div>
+						<div class="contact-item-info">
+							<h3>Location:</h3>
+							<p>A108 Adam Street,<br>
+								New York, NY 535022</p>
+						</div>
+					</div>
+					<div class="contact-item flex-container">
+						<div class="contact-item-icon">
+							<i class="icofont-envelope"></i>
+						</div>
+						<div class="contact-item-info">
+							<h3>Email:</h3>
+							<p>info@example.com</p>
+						</div>
+					</div>
+					<div class="contact-item flex-container">
+						<div class="contact-item-icon">
+							<i class="icofont-phone"></i>
+						</div>
+						<div class="contact-item-info">
+							<h3>Call:</h3>
+							<p>+1 5589 55488 55s</p>
+						</div>
+					</div>
 				</div>
 			</div>
 			<div class="col span-2-of-3">
-				<form action="#" class="main-form">
-					<div class="row">
-						<div class="col span-1-of-2">
-							<input type="text" placeholder="Your Name">
+				<div class="contact-right">
+					<form action="#" class="main-form">
+						<div class="row">
+							<div class="col span-1-of-2">
+								<input type="text" placeholder="Your Name">
+							</div>
+							<div class="col span-1-of-2">
+								<input type="text" placeholder="Your Email">
+							</div>
 						</div>
-						<div class="col span-1-of-2">
-							<input type="text" placeholder="Your Email">
+						<div class="row">
+							<input type="text" placeholder="Subject">
 						</div>
-					</div>
-					<div class="row">
-						<input type="text" placeholder="Subject">
-					</div>
-					<div class="row">
-						<textarea placeholder="Message"></textarea>
-					</div>
-					<div class="row">
-						<button type="submit" class="btn btn-contact">
-							Send Message
-						</button>
-					</div>
-				</form>
+						<div class="row">
+							<textarea placeholder="Message"></textarea>
+						</div>
+						<div class="row">
+							<button type="submit" class="btn btn-contact">
+								Send Message
+							</button>
+						</div>
+					</form>
+				</div>
 			</div>
 		</div>
 	</section>
+	<footer>
+			<div class="footer-top-block">
+				<a href="#" class="footer-link-logo"><img src="./img/hero-logo.png" alt="Logo"></a>
+				<h3 class="footer-title">Knight</h3>
+				<p class="footer-subtitle">Et aut eum quis fuga eos sunt ipsa nihil.
+					Labore corporis magni eligendi fuga maxime saepe commodi placeat.</p>
+				<form action="#" class="subscribe-form">
+					<input type="email" placeholder="Enter your Email"><input type="submit" value="Subscribe">
+				</form>
+				<nav class="footer-nav">
+					<ul>
+						<li><a href="#"><i class="bx bxl-twitter"></i></a></li>
+						<li><a href="#"><i class="bx bxl-facebook"></i></a></li>
+						<li><a href="#"><i class="bx bxl-instagram"></i></a></li>
+						<li><a href="#"><i class="bx bxl-skype"></i></a></li>
+						<li><a href="#"><i class="bx bxl-linkedin"></i></a></li>
+					</ul>
+				</nav>
+			</div>
+			<div class="row">
+				<hr>
+			</div>
+			<div class="footer-bottom-block">
+				<p class="copyright">
+					&copy Copyright Knight. All Rights Reserved
+				</p>
+			</div>
+	</footer>
+	<a href="#" class="btn-up">
+		<i class="icofont-simple-up"></i>
+	</a>
 </body>
 </html>
