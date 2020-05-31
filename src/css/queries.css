@@ -1,0 +1,67 @@
+/* Big tablet to 1200px */
+@media only screen and (max-width:1200px){
+    .client-logo{
+        width:65px;
+    }
+}
+
+@media only screen and (max-width:1025px){
+    .why-us-left{
+        padding:65px 3%;
+    }
+}
+
+/* Small tablet to big tablet: 769 to 990 */
+@media only screen and (max-width:992px){
+    .bars{
+        display: block;
+    }
+    .main-nav ul{
+        display: none;
+    }
+    .logo-item-md{
+        display:block;
+        padding: 10px 0;
+    }
+    .logo-item-md img{
+        width:40px;
+        height: auto;
+    }
+    .about-us-right{
+        padding-left:0px;
+    }
+    .service-right{
+        min-height: 400px;
+    }
+    .feature-left img{
+        width:auto;
+    }
+    .why-us-right{
+        min-height: 400px;
+    }
+    .why-us-left{
+        padding:35px 2%;
+    }
+    .client-logo{
+        width:105px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+}
+
+/* Small phones to small tablet: 768 to 575  min-width:768px*/
+@media only screen and (max-width:768px){
+    h1{
+        font-size: 1.7rem;
+    }
+}
+
+/* Small phones from 0 to 574*/
+@media only screen and (max-width:576px){
+    .feature-left img{
+        width:95%;
+    }
+    .client-logo{
+        width:48%;
+    }
+}
